@@ -1,0 +1,137 @@
+/* Font */
+@import url();
+
+/* Reset */
+*,
+::before,
+::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+.root {
+/* Media Queries */
+  --container-width-lg: 88%;
+  --container-width-md: 92%;
+
+
+/* Colors */
+  /* primary colors */
+  --color : #f2f2f2;
+
+  /* default colors */
+  --black: #222;
+  --white: #fff;
+
+/* Fonts */
+  --headingFont: ;
+  --bodyFont: ;
+  --smallText: ;
+
+/* Alternative Vars */
+   --backgroundColor: ;
+   --textColor: ;
+   --borderRadius: ;
+   --letterSpacing: ;
+   --transition: ;
+   --max-width: ;
+   --fixed-width: ;
+}
+
+
+body {
+  background: var(--backgroundColor);
+  font-family: var(--bodyFont);
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--textColor);
+}
+
+p {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--headingFont);
+  letter-spacing: var(--letterSpacing);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var();
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* buttons */
+.btn {
+  cursor: pointer;
+  background: var(--white);
+}
+
+.btn:hover {
+  background: var(--black);
+  border: ;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* form */
+.form {
+  width: 90vw;
+  max-width: var(--max-width);
+}
+
+.form-label {
+
+}
+
+.form.input {
+
+}
+
+nav {
+
+}
+
+.nav__container {
+
+}
+
+.nav__toggle-btn {
+
+}
+
+.nav__logo {
+
+}
+
+.nav__links {
+
+}
+
+section {
+  padding: 2rem;
+  height: 100vh;
+}
