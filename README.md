@@ -1,1 +1,1 @@
-# css-config-files
+# CSS Boilerplate
